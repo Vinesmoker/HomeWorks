@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 
-//#define FOR
+#define FOR
 //#define WHILE
 //#define DO...WHILE
 
@@ -12,7 +12,7 @@ void main()
 	int num;
 	int fact = 1;
 	int i = 1;
-	
+
 	cout << "¬ведите число: "; cin >> num;
 
 #ifdef FOR
